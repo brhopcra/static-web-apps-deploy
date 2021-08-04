@@ -1,3 +1,3 @@
 #!/bin/sh -l
 cd /bin/staticsites/
-./StaticSitesClient run
+./StaticSitesClient $INPUT_ACTION
