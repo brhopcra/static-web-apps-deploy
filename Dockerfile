@@ -1,3 +1,3 @@
-FROM mcr.microsoft.com/appsvc/staticappsclient:latest
+FROM brhopcra/basic-deploy:latest
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["sh", "/entrypoint.sh"]
