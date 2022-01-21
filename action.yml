@@ -40,6 +40,9 @@ inputs:
   config_file_location:
     description: "Directory location where the staticwebapp.config.json file can be found in the source code"
     required: false
+  verbose:
+    description: "pls._."
+    required: false
 outputs:
   static_web_app_url:
     description: "Url of the application"
